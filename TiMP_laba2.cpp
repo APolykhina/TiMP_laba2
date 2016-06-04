@@ -17,7 +17,7 @@ int main()
 	ifstream F(name);
 
 	while (getline(F,s)) {
-		if (s.find("\**") != string::npos) {
+		if (s.find("/**") != string::npos) {
 			ch = true;
 		}
 		pos = s.find("\\func");
